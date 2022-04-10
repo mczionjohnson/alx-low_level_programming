@@ -4,11 +4,9 @@
 
 /*
  * main - assigns a random number to var n everytime it is executed
- *
- * Return: returns zero if successful
- * betty style doc for function main goes there
  */
-
+/* Return: always zero if successful
+ */
 int main(void)
 {
 	int n;
