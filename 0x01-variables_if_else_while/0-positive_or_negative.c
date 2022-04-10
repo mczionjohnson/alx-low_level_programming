@@ -2,11 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - assigns a random number to var n everytime it is executed
+ *
+ * Return: always zero if successful
  */
-/* Return: always zero if successful
- */
+
 int main(void)
 {
 	int n;
