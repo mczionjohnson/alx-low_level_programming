@@ -6,8 +6,9 @@
  * Return: 0 if successful
  */
 int main(void)
-	int n
-	char ch
+{
+	int n;
+	char ch;
 
 	for (n = 48; n < 58; n++)
 	{
@@ -20,3 +21,4 @@ int main(void)
 
 	putchar("\n");
 	return (0);
+}
