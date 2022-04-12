@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - calls
+ * main - calls the function to print
  *
  * Return: returns 0 when successfully compiled
  *
@@ -10,8 +10,9 @@
 int main(void)
 {
 
-	_putchar("putchar");
-	_putchar("\n");
+	_putchar('_putchar');
+	_putchar('\n');
+
 	return (0);
 
 }
