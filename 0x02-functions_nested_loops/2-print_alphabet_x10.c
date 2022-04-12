@@ -7,11 +7,11 @@
 
 void print_alphabet_x10(void)
 {
-	int line;
+	int i;
 	char ch;
 
-	line = 0
-	while (line < 10)
+	i = 0;
+	while (i < 10)
 	{
 		ch = 'a';
 		for (ch <= 'z')
@@ -20,7 +20,7 @@ void print_alphabet_x10(void)
 			ch++;
 		}
 		_putchar('\n');
-		line++;
+		i++;
 	}
 
 
